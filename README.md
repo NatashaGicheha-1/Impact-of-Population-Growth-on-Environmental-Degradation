@@ -15,7 +15,7 @@ To create a mathematical model using differential equations to describe the impa
 <img width="839" height="137" alt="image" src="https://github.com/user-attachments/assets/a8a57245-a44e-46ac-94f4-f42c35e3d072" />
 * The dataset "Mau Forest" is simulated to represent population growth and forest loss in the Mau Forest.
 *  I was unable to find a complete and reliable real-world dataset for this analysis hence the need to simulate it.
-  <br><br>
+ 
 ## Clean the dataset 
 * Mau Forest dataset was cleaned to ensure accuracy and reliability before analysis.
 * Key areas looked into were Duplicate Rows, Outliers and Missing Values.
