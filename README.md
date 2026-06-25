@@ -1,7 +1,10 @@
 # A Simulated Study Of How Population Growth Affects Forest Loss in Mau Forest:Kenya
 <img width="602" height="376" alt="image" src="https://github.com/user-attachments/assets/c9768259-a702-4592-832f-ab4965746b1a" />
-## Main Goal
-To create a mathematical model using differential equations to describe the impact of population growth on forest loss in Mau Forest,Kenya with results visualized and analyzed using R.
+
+## Objectives
+* To create a regression model to show the impact of population growth on forest loss in Mau Forest,Kenya.
+* To find out how differential equations is used in projects
+* To create visualisations based on findings
 
 ## Background on the Project
 * I really struggled, still do, learning differential equations.
@@ -41,19 +44,19 @@ To create a mathematical model using differential equations to describe the impa
 ## Multiple Linear Regression Model
   <img width="458" height="250" alt="image" src="https://github.com/user-attachments/assets/9799340c-0c9b-4acd-89f1-9311b307e229" />
   
-* Image above is summary of the model
-* A multiple linear regression model was used to examine how population growth, agricultural expansion, and settlement expansion affect forest loss in the Mau Forest.
-* The model is given by:F=3329+7.213×10−6P+8.811×10−4A+1.102×10−3SF = 3329 + 7.213\times10^{-6}P + 8.811\times10^{-4}A + 1.102\times10^{-3}SF=3329+7.213×10−6P+8.811×10−4A+1.102×10−3S
-* Where:
-  * F = Forest Loss
-  * P = Population
-  * A = Agricultural Expansion
-  * S = Settlement Expansion
-* Population has a statistically significant but very small effect on forest loss
-* Agricultural expansion and settlement expansion are not statistically
-  significant in this model.
-* The model has a very low R^2, meaning it explains very little variation in forest loss
-* This suggests that forest loss is influenced by other factors not included in the model
+  * Image above is summary of the model.
+  * A multiple linear regression model was used to examine how population growth, agricultural expansion, and settlement expansion affect forest loss in the Mau Forest.
+  * The model is given by:F=3329+7.213×10−6P+8.811×10−4A+1.102×10−3SF = 3329 + 7.213\times10^{-6}P + 8.811\times10^{-4}A + 1.102\times10^{-3}SF=3329+7.213×10−6P+8.811×10−4A+1.102×10−3S
+  * Where:
+      *  F = Forest Loss
+      *  P = Population
+      *  A = Agricultural Expansion
+      *  S = Settlement Expansion
+  * Population has a statistically significant but very small effect on forest loss.
+  * Agricultural expansion and settlement expansion are not statistically
+  significant in this modeL.
+  * The model has a very low R^2, meaning it explains very little variation in forest loss.
+  * This suggests that forest loss is influenced by other factors not included in the model
 
 ## Differential Equations
 * Differential Equations was  used to represent forest loss as a dynamic process changing over time showing how changes in human activities influence the rate of forest depletion..
