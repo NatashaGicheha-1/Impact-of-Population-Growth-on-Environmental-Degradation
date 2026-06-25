@@ -13,8 +13,9 @@ To create a mathematical model using differential equations to describe the impa
 
 ## Dataset
 <img width="839" height="137" alt="image" src="https://github.com/user-attachments/assets/a8a57245-a44e-46ac-94f4-f42c35e3d072" />
+
 * The dataset "Mau Forest" is simulated to represent population growth and forest loss in the Mau Forest.
-*  I was unable to find a complete and reliable real-world dataset for this analysis hence the need to simulate it.
+* I was unable to find a complete and reliable real-world dataset for this analysis hence the need to simulate it.
  
 ## Clean the dataset 
 * Mau Forest dataset was cleaned to ensure accuracy and reliability before analysis.
@@ -36,9 +37,10 @@ To create a mathematical model using differential equations to describe the impa
 * Missing values in each column were filled using the median value of that specific column because the dataset contained outliers and was likely skewed.
 * The median is less affected by extreme values and provides a more robust estimate of the central value..
 * No missing values remained in the dataset after cleaning.
-<br><br>
+
 ## Multiple Linear Regression Model
   <img width="458" height="250" alt="image" src="https://github.com/user-attachments/assets/9799340c-0c9b-4acd-89f1-9311b307e229" />
+  
 * Image above is summary of the model
 * A multiple linear regression model was used to examine how population growth, agricultural expansion, and settlement expansion affect forest loss in the Mau Forest.
 * The model is given by:F=3329+7.213×10−6P+8.811×10−4A+1.102×10−3SF = 3329 + 7.213\times10^{-6}P + 8.811\times10^{-4}A + 1.102\times10^{-3}SF=3329+7.213×10−6P+8.811×10−4A+1.102×10−3S
@@ -52,7 +54,7 @@ To create a mathematical model using differential equations to describe the impa
   significant in this model.
 * The model has a very low R^2, meaning it explains very little variation in forest loss
 * This suggests that forest loss is influenced by other factors not included in the model
-<br><br>
+
 ## Differential Equations
 * Differential Equations was  used to represent forest loss as a dynamic process changing over time showing how changes in human activities influence the rate of forest depletion..
 * The model was written as:
@@ -67,40 +69,43 @@ dFdt=k\frac{dF}{dt} = kdtdF​=k
 * Integrating gives:
 F(t)=kt+CF(t) = kt + CF(t)=kt+C
 * Where C represents the initial forest condition
-  <br><br>
+
 ## Visualizations
 ### 1.Population vs Forest Loss (Scatter Plot)
 <img width="480" height="480" alt="population_vs_forest_loss" src="https://github.com/user-attachments/assets/d3d24341-fd3f-467b-9dcb-5cd1008bbaf0" />
+
 * This scatter plot shows the relationship between population and forest loss in the Mau Forest.
 * Each point represents a combination of population size and forest loss.
 * The purple points show a wide spread, indicating high variability.
 * The green line represents the line of best fit (regression line).
-<br>
+
 #### Interpretation of Population vs Forest Loss (Scatter Plot)
 * The points are widely scattered with no clear pattern.
 * The regression line is almost flat, showing very little change in forest loss as population increases
 * This suggests that population has a very weak relationship with forest loss
-<br>
+
 #### Conclusion
 * The graph indicates that population growth alone does not strongly explain forest loss in the Mau Forest, as there is no clear trend between the two variables.
-  <br><br>
+
 ### 2.Forest Loss Over Time (Time Series Plot)
 <img width="480" height="480" alt="forest_loss_over_time" src="https://github.com/user-attachments/assets/0f420123-6394-4711-8eb1-3f43a721c56c" />
+
 * This graph shows how forest loss changes over time in the Mau Forest.
 * The x-axis represents years.
 * The y-axis represents forest loss (in hectares).
 * The green line connects forest loss values across different years.
-<br>
+
 #### Interpretation
 * The graph appears very dense because of many overlapping data points.
 * There is no clear upward or downward trend visible.
 * Forest loss values vary widely over time
-<br>
+
 #### Conclusion
 * Forest loss does not show a clear consistent trend over the years, indicating that changes in forest loss are irregular and influenced by multiple factors.
-  <br><br>
+
 ### 3. Agriculture vs Forest Loss (Scatter Plot)
 <img width="480" height="480" alt="agricultural_expansion_vs_forest_loss" src="https://github.com/user-attachments/assets/576cd760-d219-48a7-9475-fd2b2f3a4fe2" />
+
 * This scatter plot shows the relationship between agricultural expansion and forest loss.
 * Each red point represents a combination of Agricultural expansion and Forest loss.
 * The points are widely spread across the graph
