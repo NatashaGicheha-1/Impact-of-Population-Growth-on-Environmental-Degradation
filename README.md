@@ -1,10 +1,13 @@
 # A Simulated Study Of How Population Growth Affects Forest Loss in Mau Forest:Kenya
+### Image of Human Settlement in Mau Forest
 <img width="602" height="376" alt="image" src="https://github.com/user-attachments/assets/c9768259-a702-4592-832f-ab4965746b1a" />
 
 ## Objectives
-* To create a regression model to show the impact of population growth on forest loss in Mau Forest,Kenya.
-* To find out how differential equations is used in projects
-* To create visualisations based on findings
+* To create a project from my Environment assignment.
+* To determine the impact of population growth on forest loss in Mau Forest,Narok County:Kenya.
+* To create a regression model to show the impact.
+* To find out how differential equations is used in projects.
+* To create visualisations based on findings using R.
 
 ## Background on the Project
 * I really struggled, still do, learning differential equations.
@@ -46,7 +49,7 @@
   
   * Image above is summary of the model.
   * A multiple linear regression model was used to examine how population growth, agricultural expansion, and settlement expansion affect forest loss in the Mau Forest.
-  * The model is given by:F=3329+7.213×10−6P+8.811×10−4A+1.102×10−3SF = 3329 + 7.213\times10^{-6}P + 8.811\times10^{-4}A + 1.102\times10^{-3}SF=3329+7.213×10−6P+8.811×10−4A+1.102×10−3S
+  * The model is given by: F = 3329 + 7.213×10−6P + 8.811×10−4A + 1.102×10−3S
   * Where:
       *  F = Forest Loss
       *  P = Population
@@ -60,32 +63,25 @@
 
 ## Differential Equations
 * Differential Equations was  used to represent forest loss as a dynamic process changing over time showing how changes in human activities influence the rate of forest depletion..
-* The model was written as:
+* The model was written as: dF/dt= 7.213×10−6P + 8.811×10−4A + 1.102×10−3S
+* Where:
+    * F = Forest Loss
+    * P = Population
+    * A = Agricultural Expansion
+    * S = Settlement Expansion
+  
+* dF/dt represents the rate of change of forest loss over time
 
-$$
-\mathcal{
-\frac{df}{dt}
-= 7.213 \times 10^{-6} P
-+ 8.811 \times 10^{-4} A
-+ 1.102 \times 10^{-3} S
-}
-$$
-
- * Where:
-      *  F = Forest Loss
-      *  P = Population
-      *  A = Agricultural Expansion
-      *  S = Settlement Expansion
-* dFdt\frac{dF}{dt}dtdF​ represents the rate of change of forest loss over time
-The equation shows that forest loss changes depending on population, agricultural expansion, and settlement growth
-* Assuming the variables remain constant:
-dFdt=k\frac{dF}{dt} = kdtdF​=k
-* Integrating gives:
-F(t)=kt+CF(t) = kt + CF(t)=kt+C
+* The equation shows that forest loss changes depending on population, agricultural expansion, and settlement growth
+* Assuming the variables remain constant - derivative becomes constant
+      dF/dt=k
+  
+* Integrating gives: F(t) = kt + C
 * Where C represents the initial forest condition
 
 ## Visualizations
-### 1.Population vs Forest Loss (Scatter Plot)
+### 1.Population vs Forest Loss 
+##### (Scatter Plot)
 <img width="480" height="480" alt="population_vs_forest_loss" src="https://github.com/user-attachments/assets/d3d24341-fd3f-467b-9dcb-5cd1008bbaf0" />
 
 * This scatter plot shows the relationship between population and forest loss in the Mau Forest.
@@ -134,3 +130,7 @@ F(t)=kt+CF(t) = kt + CF(t)=kt+C
 #### Conclusion
 * The graph suggests that agricultural expansion alone does not strongly explain forest loss in the Mau Forest.
 
+## Attachments
+* Images folder containing the 3 visualizations
+* Analysis.R file showing my analysis of the simulated Mau Forest dataset.
+* Individual Assignment docx showing IMPACT OF POPULATION GROWTH AND HUMAN-INDUCED DEVELOPMENT ACTIVITIES ON ENVIRONMENTAL DEGRADATION:SUSTAINABLE APPROACHES AGAINST THE VICE GIVING RELEVANT EXAMPLES FROM MY COUNTRY
