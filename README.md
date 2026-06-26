@@ -1,6 +1,6 @@
 # A Simulated Study Of How Population Growth Affects Forest Loss in Mau Forest:Kenya
 ## Overview
-* This project explores how population growth and human-induced activities contribute to forest loss in the Mau Forest, Kenya.
+* This project explores how population growth affects forest loss in the Mau Forest, Kenya.
 *  Using a simulated dataset, the study applies multiple linear regression, differential equations, and data visualization in R to analyze relationships between population dynamics and environmental degradation.
   
 ### Human Settlement in Mau Forest
