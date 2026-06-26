@@ -61,10 +61,21 @@
 ## Differential Equations
 * Differential Equations was  used to represent forest loss as a dynamic process changing over time showing how changes in human activities influence the rate of forest depletion..
 * The model was written as:
-dFdt=7.213×10−6P+8.811×10−4A+1.102×10−3S\frac{dF}{dt} =
-7.213\times10^{-6}P +
-8.811\times10^{-4}A +
-1.102\times10^{-3}SdtdF​=7.213×10−6P+8.811×10−4A+1.102×10−3S
+
+$$
+\mathcal{
+\frac{df}{dt}
+= 7.213 \times 10^{-6} P
++ 8.811 \times 10^{-4} A
++ 1.102 \times 10^{-3} S
+}
+$$
+
+ * Where:
+      *  F = Forest Loss
+      *  P = Population
+      *  A = Agricultural Expansion
+      *  S = Settlement Expansion
 * dFdt\frac{dF}{dt}dtdF​ represents the rate of change of forest loss over time
 The equation shows that forest loss changes depending on population, agricultural expansion, and settlement growth
 * Assuming the variables remain constant:
@@ -82,7 +93,8 @@ F(t)=kt+CF(t) = kt + CF(t)=kt+C
 * The purple points show a wide spread, indicating high variability.
 * The green line represents the line of best fit (regression line).
 
-#### Interpretation of Population vs Forest Loss (Scatter Plot)
+#### Interpretation of Population vs Forest Loss 
+##### (Scatter Plot with a regression (trend) line)
 * The points are widely scattered with no clear pattern.
 * The regression line is almost flat, showing very little change in forest loss as population increases
 * This suggests that population has a very weak relationship with forest loss
@@ -90,7 +102,8 @@ F(t)=kt+CF(t) = kt + CF(t)=kt+C
 #### Conclusion
 * The graph indicates that population growth alone does not strongly explain forest loss in the Mau Forest, as there is no clear trend between the two variables.
 
-### 2.Forest Loss Over Time (Time Series Plot)
+### 2.Forest Loss Over Time 
+##### (Line graph(Time Series Plot))
 <img width="480" height="480" alt="forest_loss_over_time" src="https://github.com/user-attachments/assets/0f420123-6394-4711-8eb1-3f43a721c56c" />
 
 * This graph shows how forest loss changes over time in the Mau Forest.
@@ -106,17 +119,18 @@ F(t)=kt+CF(t) = kt + CF(t)=kt+C
 #### Conclusion
 * Forest loss does not show a clear consistent trend over the years, indicating that changes in forest loss are irregular and influenced by multiple factors.
 
-### 3. Agriculture vs Forest Loss (Scatter Plot)
+### 3. Agriculture vs Forest Loss 
+##### (Scatter Plot(bivariate scatter diagram))
 <img width="480" height="480" alt="agricultural_expansion_vs_forest_loss" src="https://github.com/user-attachments/assets/576cd760-d219-48a7-9475-fd2b2f3a4fe2" />
 
 * This scatter plot shows the relationship between agricultural expansion and forest loss.
 * Each red point represents a combination of Agricultural expansion and Forest loss.
 * The points are widely spread across the graph
-<br>
+
 #### Interpretation
 * There is no clear linear pattern between agricultural expansion and forest loss
 * The data is highly scattered, indicating weak or inconsistent relationship
-<br>
+
 #### Conclusion
 * The graph suggests that agricultural expansion alone does not strongly explain forest loss in the Mau Forest.
 
