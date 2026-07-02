@@ -100,14 +100,10 @@
 * This scatter plot shows the relationship between population and forest loss in the Mau Forest.
 * Each point represents a combination of population size and forest loss.
 * The purple points show a wide spread, indicating high variability.
-* The green line represents the line of best fit (regression line).
-
-#### Interpretation of Population vs Forest Loss 
+* The green line represents the line of best fit (regression line). 
 * The points are widely scattered with no clear pattern.
 * The regression line is almost flat, showing very little change in forest loss as population increases
 * This suggests that population has a very weak relationship with forest loss
-
-#### Conclusion
 * The graph indicates that population growth alone does not strongly explain forest loss in the Mau Forest, as there is no clear trend between the two variables.
 
 ### 2.Forest Loss Over Time 
@@ -118,13 +114,9 @@
 * The x-axis represents years.
 * The y-axis represents forest loss (in hectares).
 * The green line connects forest loss values across different years.
-
-#### Interpretation
 * The graph appears very dense because of many overlapping data points.
 * There is no clear upward or downward trend visible.
 * Forest loss values vary widely over time
-
-#### Conclusion
 * Forest loss does not show a clear consistent trend over the years, indicating that changes in forest loss are irregular and influenced by multiple factors.
 
 ### 3. Agriculture vs Forest Loss 
@@ -133,31 +125,37 @@
 
 * This scatter plot shows the relationship between agricultural expansion and forest loss.
 * Each red point represents a combination of Agricultural expansion and Forest loss.
-* The points are widely spread across the graph
-
-#### Interpretation
+* The points are widely spread across the graph.
 * There is no clear linear pattern between agricultural expansion and forest loss
-* The data is highly scattered, indicating weak or inconsistent relationship
-
-#### Conclusion
+* The data is highly scattered, indicating weak or inconsistent relationship.
 * The graph suggests that agricultural expansion alone does not strongly explain forest loss in the Mau Forest.
 
 ## Limitations
+* Regression Model has low explanatory power (R²)
 * Dataset is simulated, not real-world.
-* Important variables missing (e.g., climate, policies, logging)
-* Model has low explanatory power (R²)
 
-## Future Work
-* Use real-world environmental datasets.
-* Include more variables (climate, governance, logging)
-* Apply advanced models (time series, machine learning)
+## Current Improvements
+* 1.Checked relevance of my dataset by comparing it with my friend's Environment Studies assignment, more specifically on Deforestation as a cause of Environmental Degradation.
+* 2.Took more time to understand the dataset and the cleaning process.
+* 3.Created visualisations before model building instead of after.
+* 4.Checked correlations using all variables instead of just one variable.
+* 5.Dataset is split into training and testing sets for better analysis.
+* 6.The model is then trained on the training data and evaluated on the testing data for better analysis.
+* All changes done in Analysis.Changes file
   
+## Future Work
+* Use more models and compare results.
+* Use different types of modeling and compare results.
+* Use real-world environmental datasets.
+ 
 ## Conclusion
 * This study shows that population growth alone does not strongly explain forest loss in the Mau Forest.
-* The weak relationships and low model performance suggest that environmental degradation is driven by multiple interacting factors.
-* More comprehensive data and models are required for accurate analysis.
-  
+* Using 3 more variables in the regression model still lead to a low predictive power.
+
 ## Attachments
 * Images folder containing the 3 visualizations
 * Analysis.R file showing my analysis of the simulated Mau Forest dataset.
 * Individual Assignment docx showing IMPACT OF POPULATION GROWTH AND HUMAN-INDUCED DEVELOPMENT ACTIVITIES ON ENVIRONMENTAL DEGRADATION:SUSTAINABLE APPROACHES AGAINST THE VICE GIVING RELEVANT EXAMPLES FROM MY COUNTRY
+
+
+
